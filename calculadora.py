@@ -1,18 +1,21 @@
 numero1 = float(input("Digite o primeiro número:"))
-operador = input("Digite o tipo de conta +, -, /, *:")
 numero2 = float(input("Digite o segundo número:"))
-resultado = None
+operador = input("Digite o tipo de conta +, -, /, *:")
 
 if operador == "+":
-    resultado = numero1 + numero2
+    print(numero1 + numero2)
 
 elif operador == "-":
-    resultado = numero1 - numero2
+    print(numero1 - numero2)
 
 elif operador == "*":
-    resultado = numero1 * numero2
+    print(numero1 - numero2)
 
 elif operador == "/":
-    resultado = numero1 / numero2
+    if numero2 == 0:
+        print("Não é possível dividir por zero")
+    else: 
+        print(numero1 / numero2)
 
-print (resultado)
+else:
+    print("Operador inválido")
