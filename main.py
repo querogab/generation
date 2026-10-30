@@ -1,6 +1,6 @@
 numero1 = float(input("Digite o primeiro número:"))
 numero2 = float(input("Digite o segundo número:"))
-operador = input("Digite o tipo de conta +, -, /, *:")
+operador = input("Digite o tipo de conta +, -, /, *: ")
 
 if operador == "+":
     print(numero1 + numero2)
@@ -9,7 +9,7 @@ elif operador == "-":
     print(numero1 - numero2)
 
 elif operador == "*":
-    print(numero1 - numero2)
+    print(numero1 * numero2)
 
 elif operador == "/":
     if numero2 == 0:
